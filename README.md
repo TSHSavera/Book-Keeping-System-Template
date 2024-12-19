@@ -13,3 +13,4 @@
 TRUNCATE TABLE booksdb
 MODIFY TABLE booksdb AUTO_INCREMENT = 1
 ```
+- I highly recommend to extract all js scripts from PHP files itself if you're using it. Those script codes are placed inside php files for convience but is not recommended.
