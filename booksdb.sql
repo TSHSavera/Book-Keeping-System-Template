@@ -45,7 +45,7 @@ CREATE TABLE `booksdb` (
 --
 
 INSERT INTO `booksdb` (`id`, `title`, `author`, `publisher`, `descr`, `category`, `date_published`, `isbn`, `img`, `archiveStatus`) VALUES
-(3, 'mamamo', 'mamammo', 'pogi', 'hahaha gagi', 'fwa', '2024-12-20', '4124115', 'SIR ISRAEL SAGUINSIN.jpg', 0);
+(1, 'mamamo', 'mamammo', 'pogi', 'hahaha gagi', 'fwa', '2024-12-20', '4124115', '', 0);
 
 --
 -- Indexes for dumped tables
@@ -65,7 +65,7 @@ ALTER TABLE `booksdb`
 -- AUTO_INCREMENT for table `booksdb`
 --
 ALTER TABLE `booksdb`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
